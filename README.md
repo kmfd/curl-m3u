@@ -35,4 +35,4 @@ This will create a new directory with the same name as the M3U file (without the
 
 ### License
 
-This script is licensed under the MIT License.
+This script is licensed under the GPL3 License
