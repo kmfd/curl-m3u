@@ -10,13 +10,13 @@ This is a Windows batch script designed to download files from a list of URLs sp
 
 To use this script, simply run it from the command line and provide the following arguments:
 
-* `parent_dir`: The parent directory where the downloaded files will be saved.
 * `m3u_file`: The path to the M3U file containing the list of URLs to download.
+* `parent_dir`: The parent directory where the downloaded files will be saved.
 
 ### Example
 
 ```bash
-m3u_downloader.bat C:\Downloads playlist.m3u
+m3u_downloader.bat playlist.m3u C:\Downloads
 ```
 This will create a new directory with the same name as the M3U file (without the extension) inside the specified parent directory, and download the files from the M3U file into that directory.
 
