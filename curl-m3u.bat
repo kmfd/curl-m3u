@@ -1,8 +1,8 @@
 @echo off
 setlocal enabledelayedexpansion
 
-set "parent_dir=%~1"
-set "m3u_file=%~2"
+set "m3u_file=%~1"
+set "parent_dir=%~2"
 
 set "download_folder=%parent_dir%\%~n2"
 
