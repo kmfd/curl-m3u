@@ -1,4 +1,4 @@
-M3U Downloader
+curl-m3u
 ================
 
 Overview
@@ -16,7 +16,7 @@ To use this script, simply run it from the command line and provide the followin
 ### Example
 
 ```bash
-m3u_downloader.bat playlist.m3u C:\Downloads
+curl_m3u.bat playlist.m3u C:\Downloads
 ```
 This will create a new directory with the same name as the M3U file (without the extension) inside the specified parent directory, and download the files from the M3U file into that directory.
 
